@@ -49,11 +49,17 @@ const crazyObject = {
   }
 
   //1 
-  console.log(crazyObject.taco[2]);
+    console.log(crazyObject.taco[1].salsa[5]);
   //2
-  //console.log(crazyObject.quotes[0]);
+    //console.log(crazyObject.larry[1]);
   //3
-  //4//5//6
+    console.log(crazyObject.larry)
+  //4
+  
+  //5
+  
+  //6
+
   // not sure how to get in an array in an object in an array in an object 
   
   //object-ception
@@ -108,3 +114,25 @@ console.log(inception.reality.dreamLayer1.dreamLayer2.dreamLayer3.dreamLayer4.dr
     { "title" : "License to Kill", "year" : 1989, "actor" : "Timothy Dalton", "gross" : "$285,157,191" }
   ];
 
+//1
+function arrOfTitles(arr) {
+    const bondTitles = [];
+    for (let i= 0; i < arr.length; i++)
+    bondTitle.push(arr[i].title);
+}
+arrOfTitles(bondTitles);
+
+//2 
+function oddYears(arr) {
+    if(arr[i.year % 2 != ])
+}
+
+
+//3
+let bondGross = 0;
+for (z = 0; z < bondFilms.length; z++) {
+ let h = (bondFilms[z]["gross"].replace(/\$|,/g, ''));
+ let p = (parseInt(h));
+ bondGross += p;
+}
+console.log('$' + bondGross)
