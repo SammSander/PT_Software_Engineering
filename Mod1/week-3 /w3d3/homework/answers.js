@@ -19,3 +19,40 @@ const sam = {
 }
 //4
 console.log(sam.hobby);
+
+// crazy objects
+
+const crazyObject = {
+    taco: [{meat: 'steak',
+           cheese: ['panela', 'queso', 'chihuahua']},
+           {meat: 'chicken',
+            salsa: ["pico", "hot", "hotter", "really hot", "really really hot", "omg my mouth is burning"]},
+          ],
+    larry: {
+      nicknames: ["LD", "Chicken Teriyaki Boyyyyyy"],
+      quotes: ["Pretty pretty prettayyyyy good", "Is that a parkinson's thing?", "women love a self confident bald man", "I'm a walking talking enigma"],
+      characters: [{
+        name: "Jeff",
+        occupation: "manager"
+      },
+      {
+        name: "funkhauser",
+        occupation: "tv dude"
+      },
+      {
+        name: "susie",
+        occupation: "jeffs wife",
+        favourtieHobby: "Swearing at Larry and Jeff"
+      },
+      ]
+    }
+  }
+
+  //1 
+  console.log(crazyObject.taco[2]);
+  //2
+  //console.log(crazyObject.quotes[0]);
+  //3
+  //4//5//6
+  // not sure how to get in an array in an object in an array in an object 
+  
