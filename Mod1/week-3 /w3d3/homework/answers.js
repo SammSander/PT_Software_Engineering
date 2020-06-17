@@ -129,10 +129,3 @@ function oddYears(arr) {
 
 
 //3
-let bondGross = 0;
-for (z = 0; z < bondFilms.length; z++) {
- let h = (bondFilms[z]["gross"].replace(/\$|,/g, ''));
- let p = (parseInt(h));
- bondGross += p;
-}
-console.log('$' + bondGross)
