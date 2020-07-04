@@ -2,7 +2,7 @@
 
 //1
 const crayonBox = {
-    colors: ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+    colors: ['yellow' , 'green', 'purple', 'another yellow']
 }
 console.log(crayonBox.colors[0]);
 
@@ -28,4 +28,27 @@ const apartmentBuilding = [
     tenants = ['Karen', 'Jack Jackerson', 'MR.', 'Jarvis']
 ]
 console.log(apartmentBuilding[0][0])
+
+
+//More Than One Level Deep
+
+//1
+function kint(item, size, color, yarn) {
+    this.item = item;
+    this.size = size;
+    this.color = color;
+    this.yarn = yarn;
+}
+const knitting = new knit('scarf', '6 ft', 'yellow', 'thick');
+console.log(knitting.item);
+
+//2
+function crayonSelector(color, borken, paper) {
+    this.color = ['yellow' , 'green', 'purple', 'another yellow'];
+    this.broken = broken
+    this.paper = paper
+}
+const Crayon = new crayonSelector('another yallow', true, 'perfect');
+console.log(Crayon.color[0])
+
 
