@@ -1,0 +1,11 @@
+.pg {
+    text-align: center;
+}
+.dot {
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
