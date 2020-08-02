@@ -7,6 +7,7 @@ import { MainComponent } from './main/main.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { SecondMainComponent } from './main/second-main/second-main.component';
 import { MysteryComponent } from './main/mystery/mystery.component';
+import { AllPlantsComponent } from './all-plants/all-plants.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { MysteryComponent } from './main/mystery/mystery.component';
     MainComponent,
     TopBarComponent,
     SecondMainComponent,
-    MysteryComponent
+    MysteryComponent,
+    AllPlantsComponent
   ],
   imports: [
     BrowserModule
