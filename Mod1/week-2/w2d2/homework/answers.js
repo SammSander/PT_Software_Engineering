@@ -121,4 +121,17 @@ for (d = 0; d < 20; d++) {
 // find the median 
 
 const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
-console.log(Math.floor(nums.length /2));
+    console.log(nums.length);
+const numsSort = nums.sort();
+    console.log(numsSort);
+const length = numsSort.length;
+
+if (length % 2 === 1){
+    //lenght is odd
+    console.log(numsSort[(length/2) - .5]);
+    return numsSort[(length/2) - .5];
+}
+else{
+    console.log(numsSort[lenght/2]+ numsSort[(length/2)-1])
+    return (numsSort[lenght/2]+ numsSort[(length/2)-1]);
+}
