@@ -1,0 +1,14 @@
+-Inversion of Control
+This is the flow control of a program that is automated rather than having to be specified from start to finish by the programmer.
+
+
+-Dependency Injection
+This is included in inversion of control. Parts of code are dependent on dependencies, like the databases and logs that are required for programs to work. Springboot handles the relationships between the code blocks and these items so that the developer does not have to do it all themself.
+
+
+-The MVC pattern
+MVC stands for "model, view, controller" that shows how an application can be organized. "Model" - the materials that go into the application: data, components, etc. "View" - anything that the end user directly interacts with: the GUI, or any components that make the application look a certain way. "Controller" - part or group that brings the two together and makes everything work.
+
+
+-Spring Profiles
+Spring Profiles are a way to keep different parts of your code independent of one another. Certain components should only be able to access and affect certain components. There is a built-in way so components can be kept separated.
